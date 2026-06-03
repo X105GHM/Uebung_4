@@ -15,12 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Downloads\char_cnt.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\Uebung_4.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
     <ClCompile Include="StringManipulation.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
@@ -29,9 +23,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Downloads\char_cnt.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
     <ClInclude Include="StringManipulation.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
