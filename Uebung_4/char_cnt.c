@@ -20,8 +20,9 @@ unsigned int character_cnt(char text[], char SearchChar)
 {
 	unsigned int i;
 	unsigned int cnt = 0;
+	unsigned int length = get_array_length(text);
 
-	for (i = 0; i <= get_array_length; i++)
+	for (i = 0; i <= length; i++)
 	{
 		cnt += (text[i] == SearchChar);
 	}
