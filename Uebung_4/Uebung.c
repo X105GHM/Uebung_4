@@ -9,8 +9,8 @@
    
 #include <stdio.h>
 #include "MatrixMath.h"
-//#include "MatrixMath.h"
-//#include "StringManipulation.h"
+#include "char_cnt.h"
+#include "StringManipulation.h"
 
 
 //Deklaration der Funktion calc
@@ -18,7 +18,8 @@
 static void calc();
 
 
-int main(void) {	//Block 1	
+int main(void)	//Block 1
+{		
 
 	
 	{	//Block 2
@@ -77,6 +78,8 @@ int main(void) {	//Block 1
 
 	{	//Block 5
 		char satz[] = { "HS-Kempten Programmieren 2" };
+		int cnt = character_cnt(satz, 'm');
+		printf("Anzahl der gesuchten Zeichen: %d\n", cnt);
 	}
 
 }
